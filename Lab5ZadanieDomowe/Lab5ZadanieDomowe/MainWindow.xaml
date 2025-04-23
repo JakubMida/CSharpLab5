@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lab5ZadanieDomowe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab5ZadanieDomowe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnSamochod" Content="Samochód" HorizontalAlignment="Left" Margin="278,36,0,0" VerticalAlignment="Top" Height="40" Width="82" Click="btnSamochod_Click"/>
+        <ListBox x:Name="listSamochod" HorizontalAlignment="Left" Height="249" Margin="26,36,0,0" VerticalAlignment="Top" Width="247" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button x:Name="btnLepszaWersja" Content="Lepsza" HorizontalAlignment="Left" Margin="384,36,0,0" VerticalAlignment="Top" Width="81" Height="38" Click="btnLepszaWersja_Click"/>
+        <ListBox x:Name="listaLepsza" HorizontalAlignment="Left" Height="181" Margin="489,36,0,0" VerticalAlignment="Top" Width="198" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button x:Name="bntDodaj" Content="Dodaj zadanie" HorizontalAlignment="Left" Margin="278,107,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="bntDodaj_Click"/>
+        <Button x:Name="bntPobierz" Content="Pobierz zadanie" HorizontalAlignment="Left" Margin="384,107,0,0" VerticalAlignment="Top" Height="35" Width="81" Click="bntPobierz_Click"/>
+
+    </Grid>
+</Window>
