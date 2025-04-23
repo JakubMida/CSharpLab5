@@ -1,0 +1,14 @@
+﻿<Window x:Class="KolosZadanieB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KolosZadanieB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnString" Content="String" HorizontalAlignment="Left" Margin="62,40,0,0" VerticalAlignment="Top" Height="48" Width="86" Click="btnString_Click"/>
+        <Button x:Name="btnArmata" Content="Armata" HorizontalAlignment="Left" Margin="95,128,0,0" VerticalAlignment="Top" Height="49" Width="100" Click="btnArmata_Click"/>
+
+    </Grid>
+</Window>
